@@ -1,0 +1,15 @@
+.mi-primer-div{
+    background-color: red;
+    margin-left: auto;
+}
+.mi-primer-div > p{
+    color: white;
+}
+
+.mi-segundo-div{
+    background-color: blue;
+}
+
+.mi-segundo-div > p{
+    color: antiquewhite
+}

@@ -1,0 +1,49 @@
+<!-- 
+Y funciona así:
+<style>
+    element {
+    prpiedad: valor;
+    }
+ </style> 
+-->
+
+<!-- Podemos usar class e id dentro de style -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      div {
+        text-decoration: line-through;
+      }
+
+      #palabra-verde {
+        color: green
+      }
+
+      #palabra-roja {
+        color: pink
+      }
+
+      span {
+        text-decoration: underline;
+        color: brown;
+      }
+
+      .jamon {
+        text-decoration: underline;
+      }
+
+    </style>
+  </head>
+  <body>
+    <p>
+      Las <span class="palabra-importante" id="palabra-roja"> rosas son rojas</span>.<br>
+      Las rosas azules son <span class="palabra-importante" id="palabra-azul"> azules</span> <br>
+      <span>Hola</span>. <br>
+      <div id="palabra-verde">Chao</div>
+      <div class="jamon">Jamón</div>
+    </p>
+  </body>
+</html>

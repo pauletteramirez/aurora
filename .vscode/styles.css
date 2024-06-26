@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flexbox; 
+}
+
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    display: flexbox; 
+    box-sizing: content-box;
+}
+
+input[type="radio"] {
+    margin-right: 100px;
+}
+
+button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #2b8eda;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(70, 136, 235);
+}
+
